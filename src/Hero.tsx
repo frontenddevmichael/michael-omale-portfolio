@@ -3,8 +3,7 @@
 export default function Hero() {
     return (
         <>
-
-            <section className="heroPage">
+            <section className="heroPage" id="home">
                 {/* Background blobs */}
                 <div className="heroBlob blob1"></div>
                 <div className="heroBlob blob2"></div>

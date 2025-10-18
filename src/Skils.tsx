@@ -16,7 +16,7 @@ import {
 
 export default function Skills() {
     return (
-        <section className="skillsPage">
+        <section className="skillsPage" id="skills">
             <h1>Skills and Expertise</h1>
             <p>Technologies and tools I've worked with</p>
 

@@ -29,7 +29,7 @@ export default function Projects() {
     if (loading) return <p>Loading projects...</p>;
 
     return (
-        <section className="projectsGrid">
+        <section className="projectsGrid" id="projects">
             {projects.map((project) => (
                 <div key={project.id} className="projectCard">
                     <img src={project.image_url} alt={project.title} />

@@ -5,7 +5,7 @@ export default function About() {
     return (
         <>
             {/* About Page */}
-            <section className="aboutPage">
+            <section className="aboutPage" id='about'>
                 <h1>About Me</h1>
                 <p>Get to Know more about my expertise</p>
                 <div className="aboutContent">
