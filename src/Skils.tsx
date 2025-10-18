@@ -75,13 +75,9 @@ export default function Skills() {
 
                 <div className="skillCard">
                     <Wrench className="icon" />
-                    <span>Node.Js</span>
+                    <span>Supabase</span>
                 </div>
 
-                <div className="skillCard">
-                    <GitBranch className="icon" />
-                    <span>Git-Hub</span>
-                </div>
             </div>
 
             {/* AI and Innovation Section */}
@@ -92,12 +88,12 @@ export default function Skills() {
             <div className="skillsContent">
                 <div className="skillCard">
                     <Zap className="icon" />
-                    <span>Loveable</span>
+                    <span>Supabase Integrations</span>
                 </div>
 
                 <div className="skillCard">
                     <Sparkles className="icon" />
-                    <span>AI Integration</span>
+                    <span>AI Development</span>
                 </div>
 
                 <div className="skillCard">
@@ -107,7 +103,7 @@ export default function Skills() {
 
                 <div className="skillCard">
                     <Cloud className="icon" />
-                    <span>Supabase Backend</span>
+                    <span>Loveable Cloud</span>
                 </div>
             </div>
         </section>
