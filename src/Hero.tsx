@@ -1,4 +1,4 @@
-
+import { Link } from "react-scroll";
 
 export default function Hero() {
     return (
@@ -25,7 +25,14 @@ export default function Hero() {
                         <span>UI/UX Designer</span>
                         <span>Creative Technologist</span>
                     </div>
-                    <button>View My work</button>
+                        <Link 
+                        to="projects"
+                        smooth={true}
+                        duration={400}
+                        offset={-80}
+                        >
+                        <button>View My work</button>
+                        </Link>
                 </div>
             </section>
 

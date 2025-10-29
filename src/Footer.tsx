@@ -93,7 +93,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    {/* Newsletter signup */}
+                    Newsletter signup
                     <div className="newsletter">
                         <h3 className="newsletterTitle">Stay Updated</h3>
                         <p className="newsletterDesc">Get notified about new projects and updates</p>
@@ -125,7 +125,7 @@ export default function Footer() {
                         onClick={scrollToTop}
                         title="Back to top"
                     >
-                        <ArrowUp size={20} />
+                        <ArrowUp size={20} className='arrowIcon' />
                     </button>
                 </div>
             </div>
